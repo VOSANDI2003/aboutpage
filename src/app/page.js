@@ -6,6 +6,21 @@ export default function Home() {
     <div>
       {/* Top Section */}
       <section className="hero-section">
+    <div className="header">
+        <header className="bg-white shadow-md p-4">
+      <nav className="flex justify-between items-center">
+        <div className="text-lg font-bold">ICT Platform</div>
+        <div className="flex space-x-4">
+          <a href="#" className="text-blue-600">Home</a>
+          <a href="#" className="text-blue-600">Products</a>
+          <a href="#" className="text-blue-600">Contact</a>
+        </div>
+        <div>
+          <button className="px-4 py-2 border rounded-md">Log In</button>
+          <button className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-md">Sign Up</button>
+        </div>
+      </nav>
+    </header></div>
         <div className="hero-content">
           <h1>Empowering ICT Education</h1>
           <p>
@@ -99,6 +114,17 @@ export default function Home() {
             Users can upload and share class-ready resources like materials and
             videos.
           </p>
+        </div>
+              <div className="footer">
+        <footer className="bg-gray-800 text-white py-8">
+      <div className="container mx-auto text-center">
+        <p>&copy; 2024 ICT Learning Platform. All rights reserved.</p>
+        <div className="mt-4">
+          <a href="#" className="mx-2">Privacy Policy</a>
+          <a href="#" className="mx-2">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
         </div>
       </section>
     </div>
