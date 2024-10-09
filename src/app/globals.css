@@ -1,4 +1,81 @@
 /* Global CSS for your Next.js project */
+/* Header styling */
+header {
+  background-color: rgba(183, 198, 233, 0.485); /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+  padding: 10px; /* Padding around the content */
+  margin-left: -39px;
+  
+/* Navigation bar container */
+nav {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Center vertically */
+}
+
+/* Logo or Brand name */
+header .logo {
+  font-size: 24px; /* Larger font for logo */
+  font-weight: bold; /* Bold text */
+  color: #1f2937; /* Dark gray color */
+}
+
+/* Links in the navigation */
+nav a {
+  color: #1d4ed8; /* Dark blue text */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  margin: 0 15px; /* Space between links */
+  font-weight: 500; /* Medium weight for text */
+}
+
+/* Change link color on hover */
+nav a:hover {
+  color: #2563eb; /* Lighter blue on hover */
+}
+
+/* Button styling for login and sign-up */
+button {
+  padding: 10px 20px; /* Button padding */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #103086; /* Blue border */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Login button styling */
+button.login {
+  background-color: white; /* White background */
+  color: #1d4ed8; /* Dark blue text */
+}
+
+/* Sign-up button styling */
+button.signup {
+  background-color: #1d4ed8; /* Dark blue background */
+  color: white; /* White text */
+  margin-left: 10px; /* Space between buttons */
+}
+
+/* Hover effects for buttons */
+button:hover {
+  opacity: 0.8; /* Slight transparency on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  nav a {
+    margin: 10px 0; /* Vertical space between links */
+  }
+
+  button {
+    margin-top: 10px; /* Add space between buttons */
+  }
+}
+}
 body {
   margin: 0;
   padding: 0;
@@ -7,11 +84,23 @@ body {
 }
 
 /* Hero Section */
+.header {
+  display: block;
+  justify-content: flex-end;
+  margin-left:1px;
+  margin-top: -1cm;
+
+}
+
+
+.header-content p {
+  color: aqua;
+}
 .hero-section {
   display: flex;
   justify-content: space-between;
   padding: 40px;
-  background-color: #3a4576;
+  background-color: #264c82;
   color: white;
 }
 
@@ -21,11 +110,14 @@ body {
 
 .hero-content h1 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left:-642px;
 }
 
 .hero-content p {
   font-size: 1.2rem;
+  margin-left: -642px;
+  margin-right: 490px;
 }
 
 .hero-image img {
@@ -113,4 +205,41 @@ body {
 .additional-feature p {
   font-size: 1rem;
   color: #555;
+}
+
+footer {
+  background-color: #264c82; /* Dark gray background */
+  color: white; /* White text color */
+  padding: 60px 00px; /* Vertical padding */
+  text-align: center; /* Center-align text */
+  margin-right: -25px;
+  margin-top: 0px;
+  margin-right: 15px;
+  
+}
+
+footer p {
+  margin: 0; /* Remove default margins */
+  font-size: 16px; /* Font size */
+}
+
+footer .footer-links {
+  margin-top: 200px; /* Space between the text and the links */
+}
+
+footer a {
+  color: #60a5fa; /* Light blue color for links */
+  margin: 0 15px; /* Horizontal spacing between links */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  color: #3b82f6; /* Slightly darker blue on hover */
+}
+
+@media (min-width: 768px) {
+  footer {
+    text-align: left; /* Left-align for larger screens */
+    padding-left: 20px; /* Slight left padding */
+  }
 }
