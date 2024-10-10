@@ -17,12 +17,12 @@ nav {
 header .logo {
   font-size: 24px; /* Larger font for logo */
   font-weight: bold; /* Bold text */
-  color: #1f2937; /* Dark gray color */
+  color: #0d141e; /* Dark gray color */
 }
 
 /* Links in the navigation */
 nav a {
-  color: #1d4ed8; /* Dark blue text */
+  color: #7398fc; /* Dark blue text */
   text-decoration: none; /* Remove underline */
   font-size: 16px; /* Font size */
   margin: 0 15px; /* Space between links */
@@ -100,7 +100,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 40px;
-  background-color: #264c82;
+  background-color: #040d1d;
   color: white;
 }
 
@@ -129,12 +129,13 @@ body {
 .features-section {
   padding: 40px 20px;
   text-align: center;
-  background-color: #e3e4f1;
+  background-color: #030734;
 }
 
 .features-section h2 {
   margin-bottom: 40px;
   font-size: 2rem;
+  color: #9cbeee;
 }
 
 .feature-cards {
@@ -143,15 +144,15 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   width: 30%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(4, 28, 49, 0.975);
   border-radius: 10px;
 }
 
 .card h3 {
-  color: #3a4576;
+  color: #171e3e;
   margin-bottom: 10px;
 }
 
@@ -187,7 +188,7 @@ body {
 .additional-features {
   display: flex;
   justify-content: space-around;
-  background-color: #f0f1f6;
+  background-color: #0d141e;
   padding: 40px;
 }
 
@@ -199,16 +200,16 @@ body {
 .additional-feature h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #3a4576;
+  color: #056fe8;
 }
 
 .additional-feature p {
   font-size: 1rem;
-  color: #555;
+  color: #1833e7;
 }
 
 footer {
-  background-color: #264c82; /* Dark gray background */
+  background-color: #0d141e; /* Dark gray background */
   color: white; /* White text color */
   padding: 60px 00px; /* Vertical padding */
   text-align: center; /* Center-align text */
@@ -234,7 +235,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #3b82f6; /* Slightly darker blue on hover */
+  color: #0d141e; /* Slightly darker blue on hover */
 }
 
 @media (min-width: 768px) {
