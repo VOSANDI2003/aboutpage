@@ -19,6 +19,13 @@ header .logo {
   font-weight: bold; /* Bold text */
   color: #0d141e; /* Dark gray color */
 }
+.modulescontainer{
+  padding: 15px 20px;
+  min-height: 100vh;
+  background-image: url('/public/assets/about1.jpg');
+  background-size:cover;
+  
+}
 
 /* Links in the navigation */
 nav a {
@@ -144,7 +151,7 @@ body {
 }
 
 .card {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(140, 201, 238);
   padding: 20px;
   width: 30%;
   box-shadow: 0px 4px 10px rgba(4, 28, 49, 0.975);
