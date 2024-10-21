@@ -1,26 +1,13 @@
 import { Children } from 'react';
 import './globals.css'; // Import the CSS file
 
+
 export default function Home() {
   return (
     <div>
       {/* Top Section */}
       <section className="hero-section">
-    <div className="header">
-        <header className="bg-white shadow-md p-4">
-      <nav className="flex justify-between items-center">
-        <div className="text-lg font-bold">ICT Platform</div>
-        <div className="flex space-x-4">
-          <a href="#" className="text-blue-600">Home</a>
-          <a href="#" className="text-blue-600">Products</a>
-          <a href="#" className="text-blue-600">Contact</a>
-        </div>
-        <div>
-          <button className="px-4 py-2 border rounded-md">Log In</button>
-          <button className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-md">Sign Up</button>
-        </div>
-      </nav>
-    </header></div>
+    
         <div className="hero-content">
           <h1>Empowering ICT Education</h1>
           <p>
@@ -32,7 +19,7 @@ export default function Home() {
           </p>
         </div>
         <div className="hero-image">
-          <img src="new.jpg"  />
+          <img src="../../assets/about1.jpg"  />
         </div>
       </section>
 
