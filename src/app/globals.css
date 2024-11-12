@@ -22,8 +22,8 @@ header .logo {
   color: #0d141e; /* Dark gray color */
 }
 .hero-image img {
-  width: 100%;  /* Ensures the image scales to the width of its container */
-  height: 100%; /* Maintains the aspect ratio of the image */
+  width: 250%;  /* Ensures the image scales to the width of its container */
+  height: 250%; /* Maintains the aspect ratio of the image */
   object-fit: cover; /* Ensures the image covers the area without stretching */
   border-radius: 8px; /* Adds rounded corners to the image */
 }
@@ -31,7 +31,7 @@ header .logo {
 /* Optional media query to adjust for larger screens */
 @media (min-width: 1024px) {
   .hero-image {
-    max-width: 50%; /* Limits the width of the image on larger screens */
+    max-width: 250%; /* Limits the width of the image on larger screens */
     margin: 0 auto; /* Centers the image horizontally if needed */
   }
 }
@@ -258,12 +258,12 @@ footer a {
 }
 
 footer a:hover {
-  color: #0d141e; /* Slightly darker blue on hover */
+  color: #052d66; /* Slightly darker blue on hover */
 }
 
 @media (min-width: 768px) {
   footer {
-    text-align: left; /* Left-align for larger screens */
+    text-align: center; /* Left-align for larger screens */
     padding-left: 20px; /* Slight left padding */
   }
 }
